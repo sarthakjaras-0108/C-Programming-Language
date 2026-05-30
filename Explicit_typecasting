@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main() 
+{
+    int total_marks = 15;
+    int total_subjects = 2;
+    float exact_average;
+    int basic_division;
+
+    basic_division = total_marks / total_subjects; 
+
+    exact_average = (float) total_marks / total_subjects; 
+
+    printf("Without typecasting (Integer division): %d\n", basic_division);
+    printf("With explicit typecasting (Float division): %.1f\n", exact_average);
+
+    return 0;
+}
