@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main() {
+    int num1 = 12;     
+    float num2 = 2.5;  
+    float result;
+
+    result = num1 + num2; 
+
+    printf("Value of num1 (int): %d\n", num1);
+    printf("Value of num2 (float): %.1f\n", num2);
+    printf("Result of addition (float): %.1f\n", result);
+
+    return 0;
+}
